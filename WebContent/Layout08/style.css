@@ -1,0 +1,93 @@
+@CHARSET "UTF-8";
+* {
+	padding : 0;
+	margin : 0;
+}
+body,html {
+	width : 100%;
+	height : 100%;
+}
+header {
+	width : 100%;
+	height : 10%;
+	background : rgb(49, 87, 212);
+	color : white;
+	font-size : 1.5em;
+	text-align : center;
+	line-height : 80px;
+}
+nav {
+	width : 100%;
+	height : 5%;
+	background : rgb(138, 138, 232);
+	color : white;
+	line-height : 40px;
+}
+nav ul li {
+	text-style-type : none;
+	display : inline;
+	margin : 0 3%;
+}
+nav ul li a {
+	text-decoration : none;
+	color : white;
+}
+section {
+	width : 100%;
+	height : 78%;
+	background : #eee;
+}
+section h2 {
+	text-align : center;
+	padding : 2%;
+}
+section p {
+	text-indent : 1%;
+}
+section ol li {
+	margin-left : 4%;
+}
+footer {
+	width : 100%;
+	height : 7%;
+	background : rgb(0, 112, 192);
+	color : white;
+	text-align : center;
+	font-size : 1.2em;
+	line-height : 50px;
+}
+#tab1 {
+	width : 60%;		/* 회원 등록 테이블 스타일 */
+	height : 60%;
+	margin : 0 auto;
+}
+#tab1 input[type=text] {
+	width : 60%;
+	height : 26px;
+}
+#tab1 input[type=button] {
+	width : 20%;
+	height : 26px;
+}
+#tab2 {
+	width : 70%;
+	height : 60%;		/* 회원 목록 조회 테이블 스타일 */
+	margin : 0 auto;
+}
+#tab2 tr {
+	text-align : center;
+	height : 30px;
+}
+#tab2 a {
+	text-decoration : none;
+	color : white;
+}
+#tab3 {
+	width : 60%;		/* 매출 조회 테이블 스타일 */
+	height : 50%;
+	margin : 0 auto;
+}
+#tab3 tr {
+	text-align : center;
+	height : 30px;
+}
